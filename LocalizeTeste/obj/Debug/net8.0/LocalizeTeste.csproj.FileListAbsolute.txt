@@ -172,3 +172,4 @@ E:\dotnetEstudos\LocalizeTeste\LocalizeTeste\obj\Debug\net8.0\refint\LocalizeTes
 E:\dotnetEstudos\LocalizeTeste\LocalizeTeste\obj\Debug\net8.0\LocalizeTeste.pdb
 E:\dotnetEstudos\LocalizeTeste\LocalizeTeste\obj\Debug\net8.0\LocalizeTeste.genruntimeconfig.cache
 E:\dotnetEstudos\LocalizeTeste\LocalizeTeste\obj\Debug\net8.0\ref\LocalizeTeste.dll
+E:\dotnetEstudos\LocalizeTeste\LocalizeTeste\obj\Debug\net8.0\LocalizeTeste.sourcelink.json

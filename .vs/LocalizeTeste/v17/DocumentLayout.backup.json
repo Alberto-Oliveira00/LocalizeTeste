@@ -1,12 +1,105 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\dotnetEstudos\\LocalizeTeste\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2966E250-60C4-41E6-B826-77F7A3328CB2}|LocalizeTeste\\LocalizeTeste.csproj|e:\\dotnetestudos\\localizeteste\\localizeteste\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2966E250-60C4-41E6-B826-77F7A3328CB2}|LocalizeTeste\\LocalizeTeste.csproj|solutionrelative:localizeteste\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2966E250-60C4-41E6-B826-77F7A3328CB2}|LocalizeTeste\\LocalizeTeste.csproj|e:\\dotnetestudos\\localizeteste\\localizeteste\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2966E250-60C4-41E6-B826-77F7A3328CB2}|LocalizeTeste\\LocalizeTeste.csproj|solutionrelative:localizeteste\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2966E250-60C4-41E6-B826-77F7A3328CB2}|LocalizeTeste\\LocalizeTeste.csproj|e:\\dotnetestudos\\localizeteste\\localizeteste\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2966E250-60C4-41E6-B826-77F7A3328CB2}|LocalizeTeste\\LocalizeTeste.csproj|solutionrelative:localizeteste\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2966E250-60C4-41E6-B826-77F7A3328CB2}|LocalizeTeste\\LocalizeTeste.csproj|e:\\dotnetestudos\\localizeteste\\localizeteste\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2966E250-60C4-41E6-B826-77F7A3328CB2}|LocalizeTeste\\LocalizeTeste.csproj|solutionrelative:localizeteste\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2966E250-60C4-41E6-B826-77F7A3328CB2}|LocalizeTeste\\LocalizeTeste.csproj|e:\\dotnetestudos\\localizeteste\\localizeteste\\dtos\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2966E250-60C4-41E6-B826-77F7A3328CB2}|LocalizeTeste\\LocalizeTeste.csproj|solutionrelative:localizeteste\\dtos\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "E:\\dotnetEstudos\\LocalizeTeste\\LocalizeTeste\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "LocalizeTeste\\Controllers\\AuthController.cs",
+              "ToolTip": "E:\\dotnetEstudos\\LocalizeTeste\\LocalizeTeste\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "LocalizeTeste\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T10:16:30.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\dotnetEstudos\\LocalizeTeste\\LocalizeTeste\\Program.cs",
+              "RelativeDocumentMoniker": "LocalizeTeste\\Program.cs",
+              "ToolTip": "E:\\dotnetEstudos\\LocalizeTeste\\LocalizeTeste\\Program.cs",
+              "RelativeToolTip": "LocalizeTeste\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T10:03:21.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "E:\\dotnetEstudos\\LocalizeTeste\\LocalizeTeste\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "LocalizeTeste\\Services\\UserService.cs",
+              "ToolTip": "E:\\dotnetEstudos\\LocalizeTeste\\LocalizeTeste\\Services\\UserService.cs",
+              "RelativeToolTip": "LocalizeTeste\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T10:05:48.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "E:\\dotnetEstudos\\LocalizeTeste\\LocalizeTeste\\Dtos\\LoginDto.cs",
+              "RelativeDocumentMoniker": "LocalizeTeste\\Dtos\\LoginDto.cs",
+              "ToolTip": "E:\\dotnetEstudos\\LocalizeTeste\\LocalizeTeste\\Dtos\\LoginDto.cs",
+              "RelativeToolTip": "LocalizeTeste\\Dtos\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T10:04:54.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserRegisterDTO.cs",
+              "DocumentMoniker": "E:\\dotnetEstudos\\LocalizeTeste\\LocalizeTeste\\Dtos\\UserRegisterDTO.cs",
+              "RelativeDocumentMoniker": "LocalizeTeste\\Dtos\\UserRegisterDTO.cs",
+              "ToolTip": "E:\\dotnetEstudos\\LocalizeTeste\\LocalizeTeste\\Dtos\\UserRegisterDTO.cs",
+              "RelativeToolTip": "LocalizeTeste\\Dtos\\UserRegisterDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T10:03:59.785Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

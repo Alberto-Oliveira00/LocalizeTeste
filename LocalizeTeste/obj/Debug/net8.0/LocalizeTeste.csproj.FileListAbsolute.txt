@@ -157,6 +157,7 @@ E:\dotnetEstudos\LocalizeTeste\LocalizeTeste\obj\Debug\net8.0\LocalizeTeste.Asse
 E:\dotnetEstudos\LocalizeTeste\LocalizeTeste\obj\Debug\net8.0\LocalizeTeste.csproj.CoreCompileInputs.cache
 E:\dotnetEstudos\LocalizeTeste\LocalizeTeste\obj\Debug\net8.0\LocalizeTeste.MvcApplicationPartsAssemblyInfo.cs
 E:\dotnetEstudos\LocalizeTeste\LocalizeTeste\obj\Debug\net8.0\LocalizeTeste.MvcApplicationPartsAssemblyInfo.cache
+E:\dotnetEstudos\LocalizeTeste\LocalizeTeste\obj\Debug\net8.0\LocalizeTeste.sourcelink.json
 E:\dotnetEstudos\LocalizeTeste\LocalizeTeste\obj\Debug\net8.0\rjimswa.dswa.cache.json
 E:\dotnetEstudos\LocalizeTeste\LocalizeTeste\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 E:\dotnetEstudos\LocalizeTeste\LocalizeTeste\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
@@ -172,4 +173,3 @@ E:\dotnetEstudos\LocalizeTeste\LocalizeTeste\obj\Debug\net8.0\refint\LocalizeTes
 E:\dotnetEstudos\LocalizeTeste\LocalizeTeste\obj\Debug\net8.0\LocalizeTeste.pdb
 E:\dotnetEstudos\LocalizeTeste\LocalizeTeste\obj\Debug\net8.0\LocalizeTeste.genruntimeconfig.cache
 E:\dotnetEstudos\LocalizeTeste\LocalizeTeste\obj\Debug\net8.0\ref\LocalizeTeste.dll
-E:\dotnetEstudos\LocalizeTeste\LocalizeTeste\obj\Debug\net8.0\LocalizeTeste.sourcelink.json

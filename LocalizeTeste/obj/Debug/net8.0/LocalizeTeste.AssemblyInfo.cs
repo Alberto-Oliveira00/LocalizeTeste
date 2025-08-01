@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LocalizeTeste")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3099e1302dfee2831559f2770ad4b127afbe5e22")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5e1a04aad027c4ac79077428c0e60987f579c2b0")]
 [assembly: System.Reflection.AssemblyProductAttribute("LocalizeTeste")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LocalizeTeste")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

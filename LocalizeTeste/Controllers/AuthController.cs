@@ -1,8 +1,10 @@
 ﻿using LocalizeTeste.Dtos;
 using LocalizeTeste.Models;
 using LocalizeTeste.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 
 namespace LocalizeTeste.Controllers;
 
@@ -11,10 +13,12 @@ namespace LocalizeTeste.Controllers;
 public class AuthController : ControllerBase
 {
     private readonly UserService _userService;
+    private readonly JwtService _jwtService;
 
-    public AuthController(UserService userService)
+    public AuthController(UserService userService, JwtService jwtService)
     {
         _userService = userService;
+        _jwtService = jwtService;
     }
 
     [HttpPost("register")]
@@ -26,6 +30,7 @@ public class AuthController : ControllerBase
         try
         {
             var newUser = await _userService.RegisterUserAsync(userRegisterDto);
+
             return CreatedAtAction(nameof(Register), new { id = newUser.Id },
                                                      new { newUser.Id, newUser.Name, newUser.Email });
         }
@@ -53,12 +58,25 @@ public class AuthController : ControllerBase
             if(user == null)
                 return Unauthorized(new { message = "E-mail ou senha inválidos." });
 
-            return Ok(new { message = "Login bem-sucedido!", userId = user.Id, userName = user.Name });
+            var token = _jwtService.GenerateToken(user);
+
+            return Ok(new { token = token });
         }
         catch (Exception ex)
         {
             Console.WriteLine($"Erro ao fazer login: {ex.Message}");
             return StatusCode(500, new { message = "Ocorreu um erro interno ao tentar fazer o login." });
         }
+    }
+
+    [Authorize]
+    [HttpGet]
+    public IActionResult GetProtectedData()
+    {
+        // Acessar informações do usuário autenticado (claims)
+        var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+        var userEmail = User.FindFirst(ClaimTypes.Email)?.Value;
+
+        return Ok($"Dados protegidos para o usuário ID: {userId}, Email: {userEmail}");
     }
 }

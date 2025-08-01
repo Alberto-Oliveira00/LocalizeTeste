@@ -67,10 +67,39 @@
         }
       }
     },
-    "/api/Auth": {
+    "/api/Companies": {
+      "post": {
+        "tags": [
+          "Companies"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CompanyRegisterDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CompanyRegisterDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CompanyRegisterDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
       "get": {
         "tags": [
-          "Auth"
+          "Companies"
         ],
         "responses": {
           "200": {
@@ -82,6 +111,21 @@
   },
   "components": {
     "schemas": {
+      "CompanyRegisterDto": {
+        "required": [
+          "cnpj"
+        ],
+        "type": "object",
+        "properties": {
+          "cnpj": {
+            "maxLength": 18,
+            "minLength": 14,
+            "pattern": "^\\d{2}\\.?\\d{3}\\.?\\d{3}\\/?\\d{4}\\-?\\d{2}$|^\\d{14}$",
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
       "LoginDto": {
         "required": [
           "email",

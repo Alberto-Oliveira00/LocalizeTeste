@@ -3,23 +3,24 @@
   "WorkspaceRootPath": "E:\\dotnetEstudos\\LocalizeTeste\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2966E250-60C4-41E6-B826-77F7A3328CB2}|LocalizeTeste\\LocalizeTeste.csproj|e:\\dotnetestudos\\localizeteste\\localizeteste\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2966E250-60C4-41E6-B826-77F7A3328CB2}|LocalizeTeste\\LocalizeTeste.csproj|solutionrelative:localizeteste\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2966E250-60C4-41E6-B826-77F7A3328CB2}|LocalizeTeste\\LocalizeTeste.csproj|e:\\dotnetestudos\\localizeteste\\localizeteste\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2966E250-60C4-41E6-B826-77F7A3328CB2}|LocalizeTeste\\LocalizeTeste.csproj|solutionrelative:localizeteste\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2966E250-60C4-41E6-B826-77F7A3328CB2}|LocalizeTeste\\LocalizeTeste.csproj|e:\\dotnetestudos\\localizeteste\\localizeteste\\services\\companyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2966E250-60C4-41E6-B826-77F7A3328CB2}|LocalizeTeste\\LocalizeTeste.csproj|solutionrelative:localizeteste\\services\\companyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2966E250-60C4-41E6-B826-77F7A3328CB2}|LocalizeTeste\\LocalizeTeste.csproj|e:\\dotnetestudos\\localizeteste\\localizeteste\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2966E250-60C4-41E6-B826-77F7A3328CB2}|LocalizeTeste\\LocalizeTeste.csproj|solutionrelative:localizeteste\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/BEBETO_SQLSERVER/LocalizeTeste/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{2966E250-60C4-41E6-B826-77F7A3328CB2}|LocalizeTeste\\LocalizeTeste.csproj|e:\\dotnetestudos\\localizeteste\\localizeteste\\controllers\\companiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2966E250-60C4-41E6-B826-77F7A3328CB2}|LocalizeTeste\\LocalizeTeste.csproj|solutionrelative:localizeteste\\controllers\\companiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2966E250-60C4-41E6-B826-77F7A3328CB2}|LocalizeTeste\\LocalizeTeste.csproj|e:\\dotnetestudos\\localizeteste\\localizeteste\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2966E250-60C4-41E6-B826-77F7A3328CB2}|LocalizeTeste\\LocalizeTeste.csproj|solutionrelative:localizeteste\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{2966E250-60C4-41E6-B826-77F7A3328CB2}|LocalizeTeste\\LocalizeTeste.csproj|e:\\dotnetestudos\\localizeteste\\localizeteste\\dtos\\companyresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2966E250-60C4-41E6-B826-77F7A3328CB2}|LocalizeTeste\\LocalizeTeste.csproj|solutionrelative:localizeteste\\dtos\\companyresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2966E250-60C4-41E6-B826-77F7A3328CB2}|LocalizeTeste\\LocalizeTeste.csproj|e:\\dotnetestudos\\localizeteste\\localizeteste\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2966E250-60C4-41E6-B826-77F7A3328CB2}|LocalizeTeste\\LocalizeTeste.csproj|solutionrelative:localizeteste\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,64 +34,67 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "dbo.Users [Dados]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/BEBETO_SQLSERVER/LocalizeTeste/True/SqlTable/dbo.Users.sql",
-              "ToolTip": "dbo.Users [Dados]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-08-01T11:18:25.115Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "E:\\dotnetEstudos\\LocalizeTeste\\LocalizeTeste\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "LocalizeTeste\\Controllers\\AuthController.cs",
-              "ToolTip": "E:\\dotnetEstudos\\LocalizeTeste\\LocalizeTeste\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "LocalizeTeste\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAAwD0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T11:08:30.907Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\dotnetEstudos\\LocalizeTeste\\LocalizeTeste\\appsettings.json",
-              "RelativeDocumentMoniker": "LocalizeTeste\\appsettings.json",
-              "ToolTip": "E:\\dotnetEstudos\\LocalizeTeste\\LocalizeTeste\\appsettings.json",
-              "RelativeToolTip": "LocalizeTeste\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-01T10:57:57.337Z",
+              "Title": "Company.cs",
+              "DocumentMoniker": "E:\\dotnetEstudos\\LocalizeTeste\\LocalizeTeste\\Models\\Company.cs",
+              "RelativeDocumentMoniker": "LocalizeTeste\\Models\\Company.cs",
+              "ToolTip": "E:\\dotnetEstudos\\LocalizeTeste\\LocalizeTeste\\Models\\Company.cs",
+              "RelativeToolTip": "LocalizeTeste\\Models\\Company.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T13:48:14.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CompanyResponseDto.cs",
+              "DocumentMoniker": "E:\\dotnetEstudos\\LocalizeTeste\\LocalizeTeste\\Dtos\\CompanyResponseDto.cs",
+              "RelativeDocumentMoniker": "LocalizeTeste\\Dtos\\CompanyResponseDto.cs",
+              "ToolTip": "E:\\dotnetEstudos\\LocalizeTeste\\LocalizeTeste\\Dtos\\CompanyResponseDto.cs",
+              "RelativeToolTip": "LocalizeTeste\\Dtos\\CompanyResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T13:47:29.511Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "CompaniesController.cs",
+              "DocumentMoniker": "E:\\dotnetEstudos\\LocalizeTeste\\LocalizeTeste\\Controllers\\CompaniesController.cs",
+              "RelativeDocumentMoniker": "LocalizeTeste\\Controllers\\CompaniesController.cs",
+              "ToolTip": "E:\\dotnetEstudos\\LocalizeTeste\\LocalizeTeste\\Controllers\\CompaniesController.cs",
+              "RelativeToolTip": "LocalizeTeste\\Controllers\\CompaniesController.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAiwGgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T13:46:11.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\dotnetEstudos\\LocalizeTeste\\LocalizeTeste\\Program.cs",
               "RelativeDocumentMoniker": "LocalizeTeste\\Program.cs",
               "ToolTip": "E:\\dotnetEstudos\\LocalizeTeste\\LocalizeTeste\\Program.cs",
               "RelativeToolTip": "LocalizeTeste\\Program.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAYwDgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABQAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T10:56:35.643Z",
+              "WhenOpened": "2025-08-01T13:42:05.726Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "JwtService.cs",
-              "DocumentMoniker": "E:\\dotnetEstudos\\LocalizeTeste\\LocalizeTeste\\Services\\JwtService.cs",
-              "RelativeDocumentMoniker": "LocalizeTeste\\Services\\JwtService.cs",
-              "ToolTip": "E:\\dotnetEstudos\\LocalizeTeste\\LocalizeTeste\\Services\\JwtService.cs",
-              "RelativeToolTip": "LocalizeTeste\\Services\\JwtService.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAYwBUAAAAUAAAAAAAAAA==",
+              "Title": "CompanyService.cs",
+              "DocumentMoniker": "E:\\dotnetEstudos\\LocalizeTeste\\LocalizeTeste\\Services\\CompanyService.cs",
+              "RelativeDocumentMoniker": "LocalizeTeste\\Services\\CompanyService.cs",
+              "ToolTip": "E:\\dotnetEstudos\\LocalizeTeste\\LocalizeTeste\\Services\\CompanyService.cs",
+              "RelativeToolTip": "LocalizeTeste\\Services\\CompanyService.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowCoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T10:45:13.193Z",
+              "WhenOpened": "2025-08-01T13:23:31.233Z",
               "EditorCaption": ""
             }
           ]

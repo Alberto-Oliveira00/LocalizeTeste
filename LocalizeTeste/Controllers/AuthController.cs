@@ -69,14 +69,4 @@ public class AuthController : ControllerBase
         }
     }
 
-    [Authorize]
-    [HttpGet]
-    public IActionResult GetProtectedData()
-    {
-        // Acessar informações do usuário autenticado (claims)
-        var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-        var userEmail = User.FindFirst(ClaimTypes.Email)?.Value;
-
-        return Ok($"Dados protegidos para o usuário ID: {userId}, Email: {userEmail}");
-    }
 }

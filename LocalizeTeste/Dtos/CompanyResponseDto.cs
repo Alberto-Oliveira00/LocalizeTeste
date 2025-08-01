@@ -1,6 +1,6 @@
-﻿namespace LocalizeTeste.Models;
+﻿namespace LocalizeTeste.Dtos;
 
-public class Company
+public class CompanyResponseDto
 {
     public int Id { get; set; }
     public string NomeEmpresarial { get; set; }
@@ -19,5 +19,4 @@ public class Company
     public string Uf { get; set; }
     public string Cep { get; set; }
     public int UserId { get; set; }
-    public User User { get; set; }
 }

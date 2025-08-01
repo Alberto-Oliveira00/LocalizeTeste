@@ -74,7 +74,7 @@ public class CompaniesController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<IActionResult> GetCompanies()
+    public async Task<IActionResult> GetCompanies([FromQuery] int pageNumber = 1, [FromQuery] int pageSize = 10)
     {
         var userIdString = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
         if(string.IsNullOrEmpty(userIdString) || !int.TryParse(userIdString, out int userId))
@@ -84,9 +84,9 @@ public class CompaniesController : ControllerBase
 
         try
         {
-            var companies = await _companyService.GetCompaniesByUserIdAsync(userId);
+            var paginationCompanies = await _companyService.GetCompaniesByUserIdAsync(userId, pageNumber, pageSize);
 
-            var responseDtos = companies.Select(c => new CompanyResponseDto
+            var responseDtos = paginationCompanies.Items.Select(c => new CompanyResponseDto
             {
                 Id = c.Id,
                 NomeEmpresarial = c.NomeEmpresarial,
@@ -107,7 +107,13 @@ public class CompaniesController : ControllerBase
                 UserId = c.UserId
             }).ToList();
 
-            return Ok(responseDtos);
+            return Ok(new PaginationResponseDto<CompanyResponseDto>
+            {
+                TotalCount = paginationCompanies.TotalCount,
+                PageNumber = paginationCompanies.PageNumber,
+                PageSize = paginationCompanies.PageSize,
+                Items = responseDtos
+            });
         }
         catch (Exception ex)
         {

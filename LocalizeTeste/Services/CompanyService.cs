@@ -72,10 +72,27 @@ public class CompanyService
         return company;
     }
 
-    public async Task<IEnumerable<Company>> GetCompaniesByUserIdAsync (int userId)
+    public async Task<PaginationResponseDto<Company>> GetCompaniesByUserIdAsync 
+                                                      (int userId, int pageNumber, int pageSize)
     {
-        return await _context.Companies
-                             .Where(c => c.UserId == userId)
-                             .ToListAsync();
+        if (pageNumber < 1) pageNumber = 1;
+        if (pageSize < 1) pageSize = 10;
+
+        var query = _context.Companies.Where(c => c.UserId == userId);
+
+        var totalCount = await query.CountAsync();
+
+        var companies = await query
+                            .Skip((pageNumber - 1) * pageSize)
+                            .Take(pageSize)
+                            .ToListAsync();
+
+        return new PaginationResponseDto<Company>
+        {
+            Items = companies,
+            TotalCount = totalCount,
+            PageNumber = pageNumber,
+            PageSize = pageSize
+        };
     }
 }
